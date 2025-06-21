@@ -1,5 +1,4 @@
-
-import { MessageSquare, Home, Explore, Users, BookOpen, Settings, Plus, Search } from "lucide-react";
+import { MessageSquare, Home, Compass, Users, BookOpen, Settings, Plus, Search } from "lucide-react";
 import { useState } from "react";
 
 const Sidebar = () => {
@@ -7,7 +6,7 @@ const Sidebar = () => {
 
   const menuItems = [
     { id: 'dashboard', icon: Home, label: 'Dashboard' },
-    { id: 'explore', icon: Explore, label: 'Explore AI' },
+    { id: 'explore', icon: Compass, label: 'Explore AI' },
     { id: 'team', icon: Users, label: 'Team Workspace' },
     { id: 'conversations', icon: BookOpen, label: 'My Conversations' },
   ];
