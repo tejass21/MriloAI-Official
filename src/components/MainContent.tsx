@@ -1,5 +1,5 @@
 
-import { Paperclip, Settings, ArrowUp } from "lucide-react";
+import { Paperclip, Settings, ArrowUp, Plus } from "lucide-react";
 
 const MainContent = () => {
   const quickActions = [
@@ -16,7 +16,7 @@ const MainContent = () => {
       shortcut: "⌘S"
     },
     {
-      icon: "</>",,
+      icon: "</>",
       title: "Generate code",
       description: "Create code snippets in any language",
       shortcut: "⌘C"
